@@ -1,5 +1,7 @@
 body {
+  background-image: url("bugz.png");
   background-color: pink;
+
 }
 p {
   font-size: 30px;
@@ -11,6 +13,7 @@ p {
   border-radius: 20px;
   color: yellow;
   max-width: 100%;
+
 }
 h1 {
   background-color: #62C2B1;
@@ -49,9 +52,7 @@ ul {
   max-width: 100%;
   font-family: "Moret", "Courier New", monospace;
 }
-.custom {
-  cursor: url(images/buganyamckeepink.png), auto;
-}
+
 img {
   max-width: 80%;
 }
