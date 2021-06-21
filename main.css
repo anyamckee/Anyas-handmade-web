@@ -43,7 +43,11 @@ a {
 .pretty {
   color: #9D7AD2;
 }
-
+.borderimg {
+  img {
+    border: 5px solid purple;
+  }
+}
 ul {
   background-color: #82D8D5;
   font-size: 30px;
