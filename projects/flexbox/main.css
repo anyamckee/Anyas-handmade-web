@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+}
+
+img {
+  max-width: 100%;
+}
+.flex-container {
+  background:thistle;
+  width:600px;
+  height:400px;
+  display:flex;
+  flex-direction:row;
+  /* flex-wrap:wrap; */
+  justify-content:space-evenly;
+  align-items:center;
+  align-content:center;
+}
+.item {
+  background:lightgreen;
+  width:100px;
+  height:100px;
+  border-radius:50%
+}

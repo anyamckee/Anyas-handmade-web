@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  margin:0;
+  background: rgb(185, 80, 250);
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  margin: 20px;
+  font-family: 'Dancing Script', cursive;
+}
+.object {
+  background: plum;
+  height: 300px;
+  width: 300px;
+  border-radius:50%;
+  display:block;
+  bottom:300px;
+  right:300px;
+  transition:all 1s ease;
+}
+
+.object:hover {
+  background: lightgreen;
+  height: 200px;
+  width: 200px;
+  border-radius:0%;
+}

@@ -1,0 +1,27 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin:0;
+}
+
+img {
+  max-width: 100%;
+}
+.box {
+  background: lightgreen;
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+  border: 5px solid;
+  margin: 50px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+.other {
+  background: plum;
+  width: 300px;
+  height: 300px;
+}
