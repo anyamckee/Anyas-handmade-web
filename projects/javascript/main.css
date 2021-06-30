@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+}
+
+img {
+  max-width: 100%;
+}
+.active {
+  right:-400px;
+
+}
+button {
+  background: pink;
+  font-size: 1.2rem;
+}
+button:hover {
+  background:yellow;
+}
+button:active {
+  background:lightgreen;
+}
+.box-styles {
+  height:100vh;
+  background:purple;
+  width:400px;
+  position:fixed;
+  top:0;
+  right:0;
+  padding:1.2rem;
+  font-size:1.2rem;
+  transition:right .4s ease;
+
+}

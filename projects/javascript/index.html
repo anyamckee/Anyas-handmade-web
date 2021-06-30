@@ -1,0 +1,29 @@
+<!doctype html>
+  <html>
+    <head>
+      <title>boilerplate!</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+      <button onclick="toggle()">Click me...</button>
+
+      <div id="box" class="active">
+        the box
+      </div>
+      <div id="box" class="box-styles">
+        Menu
+        <ul>
+          <li>item 1</li>
+          <li>item 1</li>
+          <li>item 1</li>
+        </ul>
+      </div>
+      <script>
+        function toggle() {
+          var box = document.getElementById("box");
+          box.classList.toggle("active");
+        }
+      </script>
+    </body>
+  </html>

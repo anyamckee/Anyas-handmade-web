@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+}
+
+img {
+  max-width: 100%;
+}
+.box {
+  background-color:thistle;
+  font-size:1rem;
+  max-width:900px;
+  padding:50px;
+}
+.container {
+  display:flex;
+  flex-wrap;wrap;
+
+}
+html {
+  font-size:30px;
+}
+.item {
+  background:lightblue;
+  width:30%;
+  height:400px;
+  margin:5px;
+}
+@media screen and (max-width:800px) {
+  body {
+    background:lightgreen;
+    font-size:150%;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .item {
+    width:100%;
+    margin:5px 0;
+  }
+}
